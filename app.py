@@ -3,7 +3,6 @@ from beautifultable import BeautifulTable
 
 
 table = BeautifulTable()
-
 numbers_for_table = []
 
 
@@ -30,8 +29,8 @@ else:
         list_add.append(result)
         numbers_for_table.append(list_add)
            
-        #print(f'El número {number} en romano es : {result}')
 for element in numbers_for_table:
     table.rows.append(element)
+    
 table.columns.header = ["decimal number", "roman_rumber"]
 print(table)
