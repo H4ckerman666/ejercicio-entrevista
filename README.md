@@ -14,3 +14,12 @@ Los modulos utilizados se encuentran en el archivo requirements.txt
 ```
 pip install -r requirements.txt
 ```
+
+## Output
+Resultado de la impresión de nuestro número ingresado
+
+![](./1.png)
+
+Resultado de la impresión si no ingresamos un número
+
+![](./2.png)
